@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Neha Agarwal - Resume</title>
-<meta name="description" content="Senior Backend Engineer · Java, distributed systems & data platforms · Bangalore, India">
+<meta name="description" content="Senior Backend Engineer · Java, distributed systems & AI-powered automation · Bangalore, India">
 <meta property="og:title" content="Neha Agarwal - Resume">
 <meta property="og:description" content="Senior Backend Engineer · Java, distributed systems & data platforms">
 <meta property="og:type" content="profile">
@@ -76,7 +76,7 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
 <main>
   <header>
     <h1>Neha Agarwal</h1>
-    <p class="tag">Senior Backend Engineer · Java, distributed systems &amp; data platforms</p>
+    <p class="tag">Senior Backend Engineer · Java, distributed systems &amp; AI-powered automation</p>
     <a class="loc" href="https://www.google.com/maps/place/Bangalore" target="_blank" rel="noopener">📍 Bangalore, India</a>
     <div class="links">
       <a class="btn" href="mailto:nehaag.engg@gmail.com">
@@ -93,7 +93,7 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
 
   <section id="about">
     <h2>About</h2>
-    <p class="summary">Backend engineer with 7.5+ years of building scalable, cloud-native systems in Java across SaaS, data and compliance domains. I like owning things end to end, from the design doc to the production rollout, and making complicated systems feel simple to the people who use them. Lately I've been exploring how AI fits into backend engineering, with RAG pipelines, pgvector and MCP on the side.</p>
+    <p class="summary">Backend engineer with 8+ years of building scalable, cloud-native systems in Java across SaaS, data and compliance domains. I like owning things end to end, from the design doc to the production rollout, and making complicated systems feel simple to the people who use them. These days I'm also bringing AI into everyday engineering: building Claude skills that automate repetitive work, and running a scheduled AI agent that clears tech-debt tickets and saves my team about 4 days of work a month. On the side, I explore RAG pipelines, pgvector and MCP.</p>
   </section>
 
   <section id="work">
@@ -104,6 +104,8 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
       <p class="role">Senior Software Engineer</p>
       <ul>
         <li>Architected and led end-to-end delivery of a centralised GDPR/NSA-compliant data retention and deletion platform. It scans 200+ database instances across 6 storage systems (PostgreSQL, Oracle, MySQL, SQL Server, DynamoDB, Couchbase) and completes full account deletions in under 10 minutes.</li>
+        <li>Automated tech-debt work with a scheduled AI agent (a Claude Code routine) that picks up and works through tech-debt tickets on its own, saving about 4 days of engineering effort every month.</li>
+        <li>Built reusable Claude skills to automate repetitive engineering tasks, and use AI-assisted development (Claude, GitHub Copilot, ChatGPT) daily for coding, debugging, design analysis and documentation.</li>
         <li>Designed a reusable, multi-module Java library for the data removal framework with pluggable storage implementations, supporting both Spring Boot and Dropwizard consumers via Java SPI.</li>
         <li>Designed a fan-out pattern orchestrating removal calls across multiple AWS accounts, and documented the architecture for platform-wide adoption.</li>
         <li>Contributed to the Datalake CDC layer: Debezium + Kafka pipelines streaming real-time changes from SQL Server, Oracle, PostgreSQL and MySQL into Snowflake for 10,000+ enterprise customers.</li>
@@ -119,7 +121,7 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
       <ul>
         <li>Built cloud-native microservices for a Contact Centre SaaS platform on AWS and GCP, processing ~2M records per quarter hour with a real-time SLA under 6 seconds.</li>
         <li>Parallelised batch processing with CompletableFuture, reducing run time from 10+ minutes to under 30 seconds.</li>
-        <li>Implemented high-throughput messaging across Kafka, AWS SQS, Kinesis and GCP Pub/Sub; built real-time ETL pipelines for analytics.</li>
+        <li>Implemented high-throughput messaging across AWS SQS, Kinesis and GCP Pub/Sub; built real-time ETL pipelines for analytics.</li>
         <li>Resolved Redis memory exhaustion under heavy load with an eviction policy; integrated GCP Dialogflow for conversational AI routing.</li>
       </ul>
     </div>
@@ -143,6 +145,8 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
       <div class="card"><h3>Data Deletion Platform</h3><p>One request, 200+ databases, 6 engines, under 10 minutes. GDPR/NSA compliant and audit-ready.</p><div class="chips"><span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">Dropwizard</span><span class="chip">AWS</span></div></div>
       <div class="card"><h3>Datalake CDC</h3><p>Real-time change data from four SQL engines into Snowflake for analytics across 10,000+ customers.</p><div class="chips"><span class="chip">Debezium</span><span class="chip">Kafka</span><span class="chip">Snowflake</span></div></div>
       <div class="card"><h3>Pluggable Removal Library</h3><p>Multi-module Java library with SPI-based storage plugins, usable from Spring Boot and Dropwizard.</p><div class="chips"><span class="chip">Java SPI</span><span class="chip">Maven</span></div></div>
+      <div class="card"><h3>AI Tech-Debt Agent</h3><p>A scheduled Claude Code routine that works through tech-debt tickets automatically, saving about 4 days of work a month.</p><div class="chips"><span class="chip">Claude Code</span><span class="chip">Scheduled agents</span><span class="chip">Automation</span></div></div>
+      <div class="card"><h3>Claude Skills</h3><p>Reusable skills that turn repetitive engineering tasks into one-step workflows.</p><div class="chips"><span class="chip">Claude</span><span class="chip">Prompt engineering</span><span class="chip">Agentic workflows</span></div></div>
       <div class="card"><h3>AI Experiments</h3><p>Side explorations with RAG pipelines, vector search and MCP servers.</p><div class="chips"><span class="chip">LangChain</span><span class="chip">pgvector</span><span class="chip">MCP</span></div></div>
     </div>
   </section>
@@ -152,8 +156,9 @@ kbd{font:11px ui-monospace,monospace;border:1px solid var(--line);border-radius:
     <div class="skills">
       <div><div class="k">Languages</div><div class="chips"><span class="chip">Java 8–25</span><span class="chip">Python</span><span class="chip">JavaScript</span></div></div>
       <div><div class="k">Frameworks</div><div class="chips"><span class="chip">Spring Boot</span><span class="chip">Spring Data</span><span class="chip">Spring Security</span><span class="chip">Dropwizard</span><span class="chip">Hibernate</span><span class="chip">MyBatis</span></div></div>
-      <div><div class="k">Data &amp; Messaging</div><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">Oracle</span><span class="chip">SQL Server</span><span class="chip">Snowflake</span><span class="chip">DynamoDB</span><span class="chip">Couchbase</span><span class="chip">Redis</span><span class="chip">Kafka</span><span class="chip">Debezium</span><span class="chip">SQS</span><span class="chip">Kinesis</span></div></div>
+      <div><div class="k">Data &amp; Messaging</div><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">Oracle</span><span class="chip">SQL Server</span><span class="chip">Snowflake</span><span class="chip">DynamoDB</span><span class="chip">Couchbase</span><span class="chip">Redis</span><span class="chip">Debezium</span><span class="chip">SQS</span><span class="chip">Kinesis</span></div></div>
       <div><div class="k">Cloud &amp; Tooling</div><div class="chips"><span class="chip">AWS ECS Fargate</span><span class="chip">Lambda</span><span class="chip">S3</span><span class="chip">CloudFormation</span><span class="chip">CloudWatch</span><span class="chip">GCP</span><span class="chip">Docker</span><span class="chip">Maven</span><span class="chip">Jenkins</span><span class="chip">Git</span></div></div>
+      <div><div class="k">AI &amp; Automation</div><div class="chips"><span class="chip">Claude Code</span><span class="chip">Claude Skills</span><span class="chip">Scheduled AI agents</span><span class="chip">GitHub Copilot</span><span class="chip">Prompt engineering</span><span class="chip">RAG</span><span class="chip">pgvector</span><span class="chip">MCP</span><span class="chip">LangChain</span></div></div>
       <div><div class="k">Architecture</div><div class="chips"><span class="chip">Microservices</span><span class="chip">Distributed Systems</span><span class="chip">Event-Driven</span><span class="chip">OpenAPI</span><span class="chip">GDPR / Data Governance</span></div></div>
     </div>
   </section>
